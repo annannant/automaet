@@ -6,10 +6,7 @@ Library           OperatingSystem
 Library           String
 Library           DateTime
 
-Test Teardown    Close All Browsers
+*** Variables ***
 
-*** Test Cases ***
-TRUE_KMS After Sale Load Content
-    [Tags]      test_link
-    Log To Console   test
+*** Keywords ***
 
